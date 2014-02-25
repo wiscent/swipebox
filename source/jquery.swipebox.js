@@ -275,7 +275,7 @@
 						$( '.touching' ).bind( 'touchmove', function( event ) {
 							event.preventDefault();
 							event.stopPropagation();
-							endCoords = e.originalEvent.targetTouches[0];
+							endCoords = event.originalEvent.targetTouches[0];
 
 						} );
 			
